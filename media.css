@@ -1,0 +1,207 @@
+@media  screen and (max-width:1488px) {
+    #projects .box{
+        width:70%;
+    }
+}
+@media  screen and (max-width:1299px) {
+    #projects .box{
+        width:80%;
+    }
+    #projects .btn{
+        margin-top: 2rem;
+    }
+}
+@media  screen and (max-width:1156px) {
+    #projects .box{
+        width:90%;
+    }
+}
+@media  screen and (max-width:1025px) {
+    #projects .box{
+        width:95%;
+    }
+} 
+/* @media  screen and (max-width:936px) {
+    #projects .btn{
+        margin-top: 1rem;
+    }
+    #education .box2{
+        height:146px;
+    }
+    #education {
+        height:825px;
+    }
+    #education h2{
+        margin-top: -2rem;
+    }
+} */
+@media  screen and (max-width:976px) {
+    #about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #projects .box{
+        width:98%;
+    }
+}
+@media  screen and (max-width:906px) {
+    .container h1{
+       text-align: center;
+       font-size: 6rem;
+    }
+    .container span{
+        margin-top: 15rem;
+    }
+    #projects h3 {
+        font-size: 1.2rem;
+    }
+    #projects p {
+        font-size: 1rem;
+        margin-top: 0.7rem;
+    }
+    #projects .btn{
+        font-size: 0.9rem;
+    }
+    #about{
+        margin: 3rem;
+    }
+}
+@media  screen and (max-width:836px){
+    #about {
+        margin: 1rem;
+    }
+    #education{
+        margin-top: 4rem;
+    }
+}
+@media  screen and (max-width:828px){
+    #projects .btn{
+        margin-top: 0rem;
+    }
+}
+@media  screen and (max-width:400px){
+    body{
+        margin: 0;
+        padding: 0;
+    } 
+    ul{
+        flex-direction: column;
+    }
+    .container .box {
+        top: 380px;
+        height: 22%;
+        width: 5%;
+    }
+    .container .box i {
+        font-size: 2rem;
+        padding: 7px 7px;
+    }
+    #about p {
+        font-size: 1rem;
+        padding: 3px;
+    }
+    #about .btn {
+        margin-top: 1rem;
+        padding: 6px 13px;
+        font-size: .7rem;
+    }
+    .humburger{
+        left: 41px;
+        top: 20px;
+        cursor: pointer;
+        display: block;
+        color: #065092;
+     }
+    .container h1 {
+        font-size: 4rem;
+    }
+    .container h2 {
+        font-size: 2rem;
+    }
+    .container .btn {
+        padding: 11px 29px;
+    }
+    .container span {
+        margin-top: 13rem;
+    }
+    #about {
+        margin: 3rem;
+    }
+    #education {
+        margin-top: 5rem;
+    }
+    #education h2 {
+        margin-top: 0rem;
+    }
+    #education .box {
+        width: 76%;
+    }
+    #education span i {
+        padding-right: 16px;
+
+    }
+    #education::before {
+        top: 183px;
+        bottom: 0;
+        left: 61px;
+    }
+    #projects .box {
+        width: 73%;
+        flex-direction: column;
+    }
+    #projects img {
+        width: 99%;
+    }
+    #projects .contain {
+        padding: 15px 12px;
+        margin-top: 1rem;
+    }
+    #projects .btn {
+        margin-top: 1rem;
+    }
+    #skills .contain {
+        font-size: 1rem;
+        grid-template-columns: repeat(3,6rem);
+        grid-row-gap: 1rem;
+        grid-column-gap: 1rem;
+    }
+    #contact .contain {
+        width: 67%;
+    }
+    footer{
+        margin: 0;
+        height:402px;
+    }
+    footer .box {
+        margin-left: 0rem;
+    }
+    footer h3 {
+        font-size: 1rem;
+    }
+    footer .icons i {
+        font-size: 1rem;
+    }
+    #my_img {
+        display: none;
+        height: 205px;
+        width: 261px;
+        position: absolute;
+        top: 333px;
+    }
+    footer::before {
+        left: 29px;
+        width: 317px;
+    }
+    footer h4 {
+        font-size: .8rem;
+        margin-left: 1rem;
+    }
+    footer .copyright {
+        position: absolute;
+        top: 342px;
+        font-size: 1rem;
+        left:102px;
+    }
+
+}

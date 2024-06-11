@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/90059062/photo/technology-series.webp?b=1&s=170667a&w=0&k=20&c=cmUa7TIA1bmwUb25gOUUEvfMl1NU3V59q5T--7iC8tk=">
+</head>
+
+<body>     
+  <nav>
+    <div class="humburger" id="burger" onclick="toggleBurger()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div id="navbar">
+      <ul>
+          <li onclick="toggleList()"><a href="#home">Home</a></li>
+            <li onclick="toggleList()"><a href="#about">About</a></li>
+            <li onclick="toggleList()"><a href="#education">Education</a></li>
+            <li onclick="toggleList()"><a href="#projects">Projects</a></li>
+            <li onclick="toggleList()"><a href="#skills">Skills</a></li>
+            <li onclick="toggleList()"><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="bgbody">
+    <div class="container" id="home">
+      <div class="box">
+       <a href="https://github.com/riyasrivastava33"target="_blank"> <i class="fa-brands fa-github"></i></a>
+  
+     <a href="https://www.linkedin.com/in/riya-srivastava-46556323a"target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+    
+     <a href="https://github.com/riyasrivastava33"target="_blank">  <i class="fa-brands fa-instagram"></i></a>
+     </div>
+    <h1>Riya Srivastava.</h1>
+    <h2>Software Engineer</h2>
+    <button type="button" class="btn" id="veiw_resume">View Resume</button>
+    <img id="my_img"src="https://indianmemetemplates.com/wp-content/uploads/main-nahi-bataunga.jpg" alt="">
+    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="true" id="icon" onclick="toggleDown()"></i></span>
+    </div>
+    </div>
+
+    <section>
+   <div id="about">
+    <h2>About</h2>
+    <div class="box">
+    <p>Hello, I am Riya Srivastava, and I wanted to take a moment to introduce myself. I'm a undergrade Computer Science and Engineering student with a passion for Full Stack Web development. I was born and raised in Sindri, and I have always found inspiration in the people and experiences that have shaped me. I truly enjoy the challenges and opportunities in life. When it comes to personal growth, I am constantly seeking ways to learn and improve myself. I believe in "Perfection is not attainable,but if we chase perfection we can catch excellence". My friends and family are incredibly important to me, and I cherish the moments we spend together.<br>
+    In summary, I'm a college student currently pursing Btech from Birsa instuition of technology situated in Jharkhand. I'm always excited about new experiences and opportunities. I look forward to connecting with others who share similar interests and passions.</p>
+    <button type="button" class="btn"><a href="#contact">Contact Me</a></button>
+    </div>
+  </div>
+ 
+</section>  
+
+   <section>
+   <div id="education">
+    <h2>Education</h2>
+    <div class="box">
+      <span><i class="fa-solid fa-location-pin"></i></span>
+      <div class="box2"> 
+            <div class="content">
+            <h3>Birsa Instuition of Technology Sindri</h3>
+            <h4>Computer Science and Engineering</h4>
+            <div class="date">April 2021 – March 2025</div>
+            <p>Cgpa-8</p></div>
+    </div>
+    </div>
+    <div class="box">
+        <span><i class="fa-solid fa-location-pin"></i></span>
+        <div class="box2">
+            <div class="content">
+            <h3>Lions Public School Sindri</h3>
+            <h4>Intermediate-Science(PCM)</h4>
+            <div class="date">April 2018 – March 2020</div>
+            <p>Grade-96%</p></div>
+        </div>
+    </div>
+    <div class="box">
+        <span><i class="fa-solid fa-location-pin"></i></span>
+        <div class="box2">
+            <div class="content">
+            <h3>DAV Public School Sindri</h3>
+            <h4>Matriculation</h4>
+            <div class="date">April 2017 – March 2018</div>
+            <p>Grade-95%</p></div>
+        </div>
+    </div>
+   </div></section>
+
+   <hr>
+   <section>
+   <div id="projects">
+    <h2>Projects</h2>
+      <div class="box">
+        <img src="amazon.png" alt="cant load this">
+       <div class="contain">
+        <h3>Amazon Clone</h3>
+        <p>I'm excited to share a little project I've been working on recently - my very own Amazon clone! Using just HTML and    CSS, I've recreated the look and feel of one of the world's largest online marketplaces.
+          In this project, I've meticulously crafted the user interface to resemble Amazon's familiar layout. While this is just a frontend clone and doesn't have the full functionality of the actual Amazon site, it's a great way to showcase my HTML and CSS skills.</p>
+        <p id="para">With this link you can view the site <a href="https://riyasrivastava33.github.io/Amazonclone/" target="_blank">Amazon Clone</a></p>
+        <button type="button" class="btn" id="btn1" onclick="toggleHide()">View More</button>
+      </div>
+      </div>
+
+
+      <div class="box">
+        <img src="game.png" alt="">
+       <div class="contain">
+        <h3>Tic-Tac-Toe</h3>
+        <p>I'm thrilled to share a project I've recently completed: a classic Tic Tac Toe game built entirely with HTML, CSS, and JavaScript. This game has been a labor of love, combining front-end design with interactive functionality. The game allows two players to take turns marking the grid with "X" and "O." It enforces the rules of Tic Tac Toe and declares a winner.The user interface is designed to be responsive, ensuring a seamless experience on both desktop and mobile devices.</p>
+        <p id="para1">With this link you can view the site <a href="https://riyasrivastava33.github.io/tic-tac-toe/"target="_blank">Tic-Tac-Toe</a></p>
+        <button type="button" class="btn" id="btn2" onclick="toggleHide1()">View More</button>
+      </div>
+      </div>
+
+   <div class="box">
+    <img src="trek.png" alt="">
+   <div class="contain">
+    <h3>Trek - The Tech Blogging Site</h3>
+    <p>I'm thrilled to share my latest project with you – a stylish and user-friendly blog site crafted entirely with Bootstrap. The blog site is fully responsive, ensuring that readers can enjoy an optimal reading experience on any device.Bootstrap's navigation components have been instrumental in creating an intuitive and easy-to-navigate menu system for readers to explore different blog posts and categories.</p>
+    <p id="para2">With this link you can view the site <a href="https://riyasrivastava33.github.io/trek/" target="_blank">Trek</a></p>
+    <button type="button" class="btn" id="btn3" onclick="toggleHide2()">View More</button>
+  </div>
+  </div>
+
+  <div class="box">
+    <img src="spotify.png" alt="">
+   <div class="contain">
+    <h3>Spotify-Clone</h3>
+    <p>I am excited to share my latest project, a Spotify clone that I have developed using HTML and CSS. Spotify is one of the most popular music streaming platforms in the world, and I wanted to challenge myself by recreating its user interface and some basic functionality.I replicated Spotify's iconic green color scheme and logo.Built a fully functional music player with play, pause, skip, and volume control options.
+      Added album artwork and song information to enhance the user experience.</p>
+    <p id="para3">With this link you can view the site <a href="https://riyasrivastava33.github.io/trek/" target="_blank">Spotify-Clone</a></p>
+    <button type="button" class="btn" id="btn4" onclick="toggleHide3()">View More</button>
+  </div>
+  </div>
+
+  <div class="box">
+    <img src="microsoft.png" alt="">
+   <div class="contain">
+    <h3>Microsoft</h3>
+    <p>I'm thrilled to share my latest project, a Microsoft clone that I've developed using the Tailwind CSS framework. Microsoft is a tech giant known for its clean and user-friendly interfaces, so I wanted to challenge myself by recreating their interface and functionality in a web application.I leveraged the power of the Tailwind CSS framework to streamline my project's styling and layout.Designed a landing page with Microsoft's signature color scheme and logo.
+      Created a responsive navigation bar with links to various Microsoft products and services.
+      Implemented a hero section showcasing featured products.</p>
+    <p id="para4">With this link you can view the site <a href="https://riyasrivastava33.github.io/trek/" target="_blank">Microsoft</a></p>
+    <button type="button" class="btn" id="btn5" onclick="toggleHide4()">View More</button>
+  </div>
+  </div>
+</div>
+  </section>
+  
+   <section>
+   <div id="skills">
+    <h2>Skills</h2>
+    <div class="contain">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Tailwind</p>
+        <p>Javascript</p> <p>Reactjs</p> <p>C++</p> <p>C</p> <p>DBMS</p> <p>DSA</p> <p>OS</p> <p>MYSQL</p>
+         <p>Bootstrap</p>
+    </div>
+   </div></section>
+
+<hr>
+<section>
+   <div id="contact">
+     <h2>Get in Touch</h2>
+     <div class="contain">
+        <form action="">
+                <div class="form-grp">
+                 <input type="email" placeholder="Enter your E-mail"id="email">
+              </div>
+                <div class="form-grp">
+                  <textarea placeholder="Enter your issue"id="text-area"cols="30" rows="10"></textarea>
+              </div>
+                <div class="form-grp">
+                   <button type="button" class="submit">Submit</button>
+                  </div>
+        </form>
+     </div>
+   </div>
+ </section>
+
+   <footer>
+    <div class="box">
+    <h3>Riya Srivastava</h3><br>
+   <h4>Software Engineer</h4>
+   </div>
+    <span><i class="fa-solid fa-circle-chevron-up"aria-hidden="true" id="iconup" onclick="toggleUp()"></i></span>
+    <div class="icons">
+      <h3>Connect with me</h3>
+    <a href="https://github.com/riyasrivastava33"target="_blank"> <i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/riya-srivastava-46556323a"target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+       <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="copyright">Copyright © 2023 Riya</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
